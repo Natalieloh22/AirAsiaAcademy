@@ -37,4 +37,4 @@ regr.fit(X, y)
 prediction = regr.predict(df)
 
 st.subheader('Prediction')
-st.write(prediction)
+st.write(prediction[0])
